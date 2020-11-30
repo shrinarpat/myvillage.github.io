@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Photo&Video Gallery</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!-- templatemo 314 spicy -->
+<!-- 
+Spicy Template 
+http://www.templatemo.com/preview/templatemo_314_spicy 
+-->
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+ 
+<!-- Arquivos utilizados pelo jQuery lightBox plugin -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<link rel="stylesheet" type="text/css" href="jquery.lightbox-0.5.css" media="screen" />
+<!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin -->
+
+<!-- Ativando o jQuery lightBox plugin -->
+<script type="text/javascript">
+$(function() {
+    $('.lightbox').lightBox();
+});
+</script>
+
+</head>
+<body>
+<div id="templamteo_body_wrapper">
+<div id="templatemo_wrapper">
+	<div id="templatemo_main_top"></div>
+    <div id="templatemo_main">
+    
+    	<div id="templatemo_sidebar">
+        	
+            <div id="site_title"><h1><a href="#">Gallery</a><span>My-Village Function&Festivals Photos.</span></h1></div>
+            
+            <div id="templatemo_menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html" class="current">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>    	
+			</div>
+            
+            <div class="sb_box">
+	            <h3>Search</h3>
+            	<div id="search">
+                    <form action="#" method="get">
+                        <input type="text" value="Search" name="q" size="10" id="searchfield" title="searchfield" onfocus="clearText(this)" onblur="clearText(this)" />
+                        <input type="submit" name="Search" value="Search" id="searchbutton" title="Search" />
+                    </form>
+				</div>
+            </div>
+            
+            <div class="sb_box">
+            	<h3>Contact Form</h3>
+                <div id="contact_form">
+                    <form action="#" method="post">
+                    
+                        <label for="author">Name:</label> 
+                        <input type="text" id="author" name="author" class="required input_field" />
+                    
+                      	<label for="email">Email:</label>
+                        <input type="text" id="email" name="email" class="validate-email required input_field" />
+                        
+                        <label for="subject">Subject:</label> 
+                        <input type="text" id="subject" name="subject" class="input_field" />
+            
+                        <label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
+                        <input type="submit" id="submit" class="float_l" name="submit" value="Send" />
+                        
+                    </form>
+				</div>
+            </div>
+			
+            <div class="cleaner"></div>
+        </div> <!-- end of sidebar -->
+        
+        <div id="templatemo_content">
+        	
+            <div class="content_box">
+                <div id="gallery">
+				 <h3 > The holi Celebration in my Village </h3>
+                    <ul>
+                        <li>
+                            <a href="video/Holi22.mp4" target="_top" class="lightbox" >  	
+                             <video width="200px" height="140px" controls>
+                         <source src="video/Holi22.mp4" type="video/mp4">
+                         </video>						 
+                          </a>
+                         
+                           
+                            						
+                           </li><br><br><br>
+						 
+                          <li>
+                        <span>Holi Celebration Photos .</span>
+                        <a href="images/gallery/Holilink.jpg" target="_top"><img src="images/gallery/Holi1.jpg" alt="Holi1" width="200px" height="200px"></a>
+						<a href="images/gallery/Holilink2.jpg" target="_top"><img src="images/gallery/Holi3.jpg" alt="Holi3" width="200px" height="200px"></a>
+						<a href="images/gallery/Holilink3.jpg" target="_top"><img src="images/gallery/Holi4.jpg" alt="Holi4" width="200px" height="200px"></a>
+                        </li>
+						
+                       <li>
+					   <a href="video/camelvideo.mp4" target="_top">
+					   <video width="200px" height="180px" controls>
+					   <source src="video/camelvideo.mp4" type="video/mp4">
+					   </video></a>
+					   <span> The ship of Desert .</span>
+					   </li></ul>
+					   <div class="three">
+					   <h2> Dairy Images</h2>
+					   </div>
+					   <div class="four">
+					   <a href="images/gallery/milklink.jpg" target="_top"><img src="images/gallery/milk.jpg" alt="milk" width="200px" height="200px"></a>
+					   <a href="images/gallery/dairylink.jpg" target="_top"><img src="images/gallery/dairy.jpg" alt="milk" width="200px" height="200px"></a>
+					   </div>
+					   <div class="five">
+					   <h2> Other Photos </h2>
+					    <a href="images/gallery/bike.jpg" target="_top"><img src="images/gallery/bike.jpg" alt="milk" width="200px" height="200px"></a>
+						<a href="images/gallery/debikaka.jpg" target="_top"><img src="images/gallery/debikaka.jpg" alt="milk" width="200px" height="200px"></a>
+						<a href="images/gallery/holigif.gif" target="_top"><img src="images/gallery/holigif.gif" alt="milk" width="200px" height="200px"></a>
+					 </div> <!-- new add div -->
+					 <!-- <li>
+					   <span> Dairy Photos </span>
+					   <a href="images/gallery/milklink.jpg" target="_top"><img src="images/gallery/milk.jpg" alt="milk" width="200px" height="200px"></a>
+                     </li>-->  
+				</div><!-- end of gallery -->
+            </div> <!-- end of content box -->
+        
+        </div> <!-- end of content -->
+    	<div class="cleaner"></div>
+    </div> <!-- end of main -->
+    <div id="templatemo_footer">
+    
+        Copyright © 2018 <a href="#"></a>
+    
+    </div> <!-- end of templatemo_footer -->
+</div> <!-- end of wrapper -->
+</div>
+</body>
+</html>
